@@ -1,9 +1,11 @@
 version: 0.2
+
 env:
   variables:
     S3_BUCKET: "frontendangular-app"
     APP_NAME: "SampleAngular"
     BUILD_ENV : "cloudtest"
+    
 phases:
   install:
     commands:
